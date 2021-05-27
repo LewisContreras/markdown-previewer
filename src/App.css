@@ -1,1 +1,24 @@
+body{
+  background-color: darkcyan;
+}
 
+#container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#editor{
+  width: 400px;
+  height: 200px;
+  white-space: pre-line;
+}
+
+#preview{
+  width: 400px;
+  height: 200px;
+  word-wrap: break-word;
+
+}
